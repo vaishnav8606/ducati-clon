@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    right: 6%;
+    left: 6%;
+    top: 5%;
+    margin-top: 2%;
+    height: 15%;
+    background-color: white;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 1px 1px 10px -5px;
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+
+    
+}
+.img-1{
+    display: block;
+    width: 100%;
+    height: 800px;
+    object-fit: cover
+}
+.menu{
+    height: 25px;
+    margin-right: 15px;
+    margin-left: 20px;
+}
+.models-select{
+    border-style: none;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: arial;
+    margin-right: 2rem;
+}
+.events-select{
+    border-style: none;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: arial;
+    margin-right: 30px;
+}
+.header-text{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: arial;
+    margin-right: 40px;
+    align-items: center;
+   
+}
+.header-text-1{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: arial;
+    margin-right: 40px;
+    align-items: center;
+   
+}
+.logo{
+    width:6vw;
+    top: 0px;
+    margin-top: -15px;
+    margin-left: -5px;
+    margin-right: 10px;
+}
+.ducati-logo{
+  width: 50px;
+}
+.page-1-top{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    left: 130px;
+    top: 20px;
+    position: absolute;
+}
+.page-top-text{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+
+}
+.page-1-top-right{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 120px;
+}
+.region-select{
+    background-color: transparent;
+    border: none;
+    margin-right: 20px;
+    color: white;
+}
+.myducati-select{
+    background-color: transparent;
+    padding-left: 20px;
+    color: white;
+    border-color: black;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+   
+}
+
+@media (max-width:1150px){
+    .header-text-1{
+        color: transparent;
+        margin: 0px;
+        width: 0%;
+        
+    }
+}
+@media (max-width:850px){
+    .models-select,.events-select,
+    .region-select.myducati-select,
+    .header-text-1{
+        color: transparent;
+        margin: 0px;
+        width: 0%;
+        display: flex;
+    }
+}
+@media (max-width:850px){
+    .header{
+        z-index: 100;
+        top: 0%;
+        right: 0%;
+        left:0%;
+        margin-top: 0px;
+        position:fixed ;
+        width: fit-content;
+        display: block;
+        height: 7%;
+        align-items: center;
+        display: flex;
+    }
+}
+.img-text{
+    position: absolute;
+    left: 3%;
+    bottom: 15%;
+    color: white;
+    align-items: end;
+
+}
+.title{
+    font-size: 48px;
+}
+.discover-button{
+    display: block;
+    width: 180px;
+    height: 60px;
+    bottom: 7%;
+    right: 8%;
+    background-color: red;
+    border: none;
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 5px;
+}
+
+.row{
+    margin-top: 5%;
+    border-color: rgb(193, 7, 7);
+    border-style: solid;
+    border-bottom: 0;
+    border-top: 0;
+    border-right: 0;
+    border-width: 4px;
+    box-shadow: 1px 1px 10px -5px;
+  
+}
+.text-img{
+    width: 100%;
+    
+}
+.col{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.row:hover{
+    box-shadow: 1px 1px 15px -5px;
+}
+.img-2{
+    width: 100%;
+    margin-top: 0;
+    
+}
+.body-text{
+    margin-left: 20px;
+}
+@media (max-width:775px){
+    .row{
+        display: grid;
+    }
+}
+.preview-title{
+    position: relative ;
+    top: 10%;
+   left: 70%;
+    color: white;
+    font-size: 80%;
+  
+}
+
+h2{
+    font-size:23px;
+}
+.p-2{
+    color: gray;
+}
+.highlight{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgb(180, 180, 180);
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 8%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+.preview-contant{
+    position: relative;
+}
+.card{
+    margin-top: 25%;
+    display: flex;
+    flex: 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.card:hover{
+    box-shadow: 1px 1px 15px -5px;
+
+}
+@media(max-width:850px){
+    .card{
+        margin: 0%;
+    }
+}
+.last{
+    position: relative;
+}
+.last-image-1{
+    display: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%;
+   
+}
+.last-contant{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+    color:white;
+    display: flex;
+    justify-content: center;
+    display: block;
+    width: 25%;
+
+}
+.last-title{
+    font-size: 160%;
+}
+.discover-button-2{
+    display: block;
+    width: 94px;
+    height: 55px;
+    bottom: 7%;
+    right:7% ;
+    background-color: rgb(196, 2, 2);
+    border: none;
+    position: absolute;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+    font-family: arial;
+    border-radius: 5px;
+}
+.footer-contant{
+   padding: 20%;
+
+
+}
+.footer-title{
+    margin-bottom: 3%;
+    font-size:165% ;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.footer-text{
+    font-size:80% ;
+}
+.footer-txt{
+    margin-bottom: 1%;
+}
+.input-email{
+    width: 60%;
+    height: 100%;
+}
+#footer li:hover{
+    font-size: 15px;
+    color: red;
+}
+@media(max-width:850px){
+    .last-text{
+        color: transparent;
+        width: 0%;
+    }
+}
+
